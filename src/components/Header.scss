@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  align-items: center;
+
+  height: 50vh;
+
+  & .movie-description {
+    display: flex;
+    padding: 0px 100px;
+    flex-direction: column;
+  }
+}
